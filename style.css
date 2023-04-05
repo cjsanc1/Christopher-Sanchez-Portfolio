@@ -1,26 +1,80 @@
-*{
+html,
+body {
     font-family: 'Merriweather', serif;
     background-color: #C0D0E2;
     font: #585850;
+    /* padding: .5rem;
+    margin: 0 auto; */
 }
+
+main {
+    /* padding: ; */
+    /* margin: 1rem auto; */
+    width: 80%;
+}
+
 
 .drum-sampler-pictures {
     display: flex;
     justify-content: space-between;
 }
+
 #drum-picture {
-    height: 5.5rem;
-    width: 5.5rem;
+    height: 4.5rem;
+    width: 4.5rem;
 
 }
-.drum-sampler-words{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 3rem 0 .5rem 0;
+}
+
+.drum-sampler-words {
     display: flex;
     justify-content: space-between;
 }
-.drum-sampler-words > p {
+
+.drum-sampler-words>p {
     margin: 0 .5rem;
 }
+
 #computer-picture {
-    height: 11rem;
-    width: auto;
+    height: auto;
+    width: 100%;
 }
+
+hr {
+    width: 66%;
+    margin: 2rem auto;
+}
+
+.container-fluid {
+    background-color: #323940;
+}
+
+footer>.container-fluid {
+    background-color: #323940;
+}
+
+footer {
+    background-color: #323940;
+}
+
+a.navbar-brand {
+    background-color: #323940;
+    color: #D5D5D0;
+}
+nav.navbar {
+    padding: 0;
+}
+
+ul.navbar-nav.p-2.bg-dark {
+    background-color: #323940 !important;
+    color: #D5D5D0;
+}
+
