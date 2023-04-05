@@ -1,3 +1,26 @@
-* {
-    border: 2px solid navy;
+*{
+    font-family: 'Merriweather', serif;
+    background-color: #C0D0E2;
+    font: #585850;
+}
+
+.drum-sampler-pictures {
+    display: flex;
+    justify-content: space-between;
+}
+#drum-picture {
+    height: 5.5rem;
+    width: 5.5rem;
+
+}
+.drum-sampler-words{
+    display: flex;
+    justify-content: space-between;
+}
+.drum-sampler-words > p {
+    margin: 0 .5rem;
+}
+#computer-picture {
+    height: 11rem;
+    width: auto;
 }
