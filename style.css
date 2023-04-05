@@ -15,8 +15,7 @@ main {
 
 
 .drum-sampler-pictures {
-    display: flex;
-    justify-content: space-between;
+    margin: 0 1.5rem;
 }
 
 #drum-picture {
@@ -34,14 +33,6 @@ h6 {
     margin: 3rem 0 .5rem 0;
 }
 
-.drum-sampler-words {
-    display: flex;
-    justify-content: space-between;
-}
-
-.drum-sampler-words>p {
-    margin: 0 .5rem;
-}
 
 #computer-picture {
     height: auto;
@@ -49,7 +40,7 @@ h6 {
 }
 
 hr {
-    width: 66%;
+    width: 85%;
     margin: 2rem auto;
 }
 
