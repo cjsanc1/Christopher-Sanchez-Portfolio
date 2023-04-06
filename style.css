@@ -1,8 +1,11 @@
+
+
 html,
 body {
     font-family: 'Merriweather', serif;
     background-color: #C0D0E2;
     font: #585850;
+    
     /* padding: .5rem;
     margin: 0 auto; */
 }
@@ -13,6 +16,9 @@ main {
     width: 80%;
 }
 
+.change-cursor{
+    cursor: url(./Pictures/noun-drumstick-196025.png), auto;
+}
 
 .drum-sampler-pictures {
     margin: 0 1.5rem;

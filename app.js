@@ -5,6 +5,10 @@
 
 function playAudio(audioFile) {
     new Audio(audioFile).play();
+    document.body.classList.add("change-cursor")
+    setTimeout(() => {
+        document.body.classList.remove("change-cursor");
+      }, 1000);
 }
 
 document.addEventListener("keydown", function (evt) {
@@ -21,3 +25,4 @@ document.addEventListener("keydown", function (evt) {
         playAudio("./drum-samples/Cymbal.mp3")
     }
 });
+
