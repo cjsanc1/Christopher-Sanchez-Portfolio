@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <title>Christopher Sanchez</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -45,28 +45,33 @@
             accusantium ipsam consequuntur minima illo asperiores aperiam quisquam, quo deleniti ipsum? Ex, quo dolore?
             Alias.</p>
 
-        <div class="container drum-sampler-pictures">
+        <div class="container">
             <div class="row">
                 <div class="col">
-                    <img class="drum-picture" id="kickImage" src="./Pictures/noun-bass-drum-118259.png" onclick="playAudio('./drum-samples/kick.mp3')" alt="Picture of a Kick Drum">
-                    <p>Kick Drum (a)</p>
-                    <img class="drum-picture" id="snareImage" src="./Pictures/noun-drum-111554.png" onclick="playAudio('./drum-samples/Snare.mp3')" alt="Picture of a Snare Drum">
-                    <p>Snare Drum (s)</p>
+                    <div class="d-flex justify-content-center align-items-center flex-column">
+                        <img class="drum-picture" id="kickImage" src="./Pictures/noun-bass-drum-118259.png"
+                            onclick="playAudio('./drum-samples/kick.mp3')" alt="Picture of a Kick Drum">
+                        <p>Kick Drum (a)</p>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center flex-column">
+                        <img class="drum-picture" id="snareImage" src="./Pictures/noun-drum-111554.png"
+                            onclick="playAudio('./drum-samples/Snare.mp3')" alt="Picture of a Snare Drum">
+                        <p>Snare Drum (s)</p>
+                    </div>
                 </div>
                 <div class="col">
-                    <img class="drum-picture" id="hatImage" src="./Pictures/noun-hi-hat-5099191.png" onclick="playAudio('./drum-samples/Hi-Hat.mp3')" alt="picture of a Hi-Hat cymbal">
-                    <p>Hi-Hat (e)</p>
-                    <img class="drum-picture" id="cymbalImage" src="./Pictures/noun-cymbal-1659375.png" onclick="playAudio('./drum-samples/cymbal.mp3')" alt="Picture of a drum Cymbal">
-                    <p>Cymbal (r)</p>
+                    <div class="d-flex justify-content-center align-items-center flex-column">
+                        <img class="drum-picture" id="hatImage" src="./Pictures/noun-hi-hat-5099191.png"
+                            onclick="playAudio('./drum-samples/Hi-Hat.mp3')" alt="picture of a Hi-Hat cymbal">
+                        <p>Hi-Hat (e)</p>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center flex-column">
+                        <img class="drum-picture" id="cymbalImage" src="./Pictures/noun-cymbal-1659375.png"
+                            onclick="playAudio('./drum-samples/cymbal.mp3')" alt="Picture of a drum Cymbal">
+                        <p>Cymbal (r)</p>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="drum-sampler-words">
-
-
-
-
         </div>
 
         <hr>
@@ -88,13 +93,12 @@
 
         <hr>
 
-
         <h2 id="projects">Projects</h2>
         <div class="container">
             <div class="row">
                 <div class="col-md">
                     <h3>Project #1</h3>
-                    <img id="computer-picture"
+                    <img class="computer-picture"
                         src="https://theartsdevelopmentcompany.org.uk/wp-content/uploads/2019/02/Website-Building-Landscape-1280x640.jpg"
                         alt="Picture of a computer with Christopher's website">
                     <h4>Project Title</h4>
@@ -106,7 +110,7 @@
                 </div>
                 <div class="col-md">
                     <h3>Project #2</h3>
-                    <img id="computer-picture"
+                    <img class="computer-picture"
                         src="https://theartsdevelopmentcompany.org.uk/wp-content/uploads/2019/02/Website-Building-Landscape-1280x640.jpg"
                         alt="Picture of a computer with Christopher's website">
                     <h4>Project Title</h4>
@@ -120,7 +124,7 @@
             <div class="row">
                 <div class="col-md">
                     <h3>Project #3</h3>
-                    <img id="computer-picture"
+                    <img class="computer-picture"
                         src="https://theartsdevelopmentcompany.org.uk/wp-content/uploads/2019/02/Website-Building-Landscape-1280x640.jpg"
                         alt="Picture of a computer with Christopher's website">
                     <h4>Project Title</h4>
@@ -133,7 +137,7 @@
                 </div>
                 <div class="col-md">
                     <h3>Project #4</h3>
-                    <img id="computer-picture"
+                    <img class="computer-picture"
                         src="https://theartsdevelopmentcompany.org.uk/wp-content/uploads/2019/02/Website-Building-Landscape-1280x640.jpg"
                         alt="Picture of a computer with Christopher's website">
                     <h4>Project Title</h4>
@@ -152,7 +156,8 @@
     <footer class="navbar sticky-bottom">
         <div class="container-fluid">
             <a class="navbar-brand" href="https://github.com/cjsanc1" target="_blank">GitHub</a>
-            <a class="navbar-brand" href="https://www.linkedin.com/in/christopher-sanchez-499518267/" target="_blank">Linkedin</a>
+            <a class="navbar-brand" href="https://www.linkedin.com/in/christopher-sanchez-499518267/"
+                target="_blank">Linkedin</a>
         </div>
     </footer>
 

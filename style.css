@@ -1,34 +1,23 @@
-
-
 html,
 body {
     font-family: 'Merriweather', serif;
+    font-weight: 300;
     background-color: #C0D0E2;
     font: #585850;
-    
-    /* padding: .5rem;
-    margin: 0 auto; */
 }
 
 main {
-    /* padding: ; */
-    /* margin: 1rem auto; */
-    width: 80%;
+    padding: 0 1.5rem;
+    max-width: 800px;
 }
 
-.change-cursor{
+.change-cursor {
     cursor: url(./Pictures/noun-drumstick-196025.png), auto;
-}
-
-.drum-sampler-pictures {
-    margin: 0 1.5rem;
-    /* display: inline-block; */
 }
 
 .drum-picture {
     height: 4.5rem;
     width: 4.5rem;
-
 }
 
 h1,
@@ -38,10 +27,14 @@ h4,
 h5,
 h6 {
     margin: 3rem 0 .5rem 0;
+    font-weight: 700;
 }
 
+h3{
+    color: #323940;
+}
 
-#computer-picture {
+.computer-picture {
     height: auto;
     width: 100%;
 }
@@ -51,28 +44,18 @@ hr {
     margin: 4rem auto;
 }
 
-.container-fluid {
-    background-color: #323940;
-}
-
-footer>.container-fluid {
-    background-color: #323940;
-}
-
+.container-fluid,
+footer>.container-fluid,
 footer {
     background-color: #323940;
 }
 
-a.navbar-brand {
-    background-color: #323940;
-    color: #D5D5D0;
-}
 nav.navbar {
     padding: 0;
 }
 
-ul.navbar-nav.p-2.bg-dark {
+ul.navbar-nav.p-2.bg-dark,
+a.navbar-brand {
     background-color: #323940 !important;
     color: #D5D5D0;
 }
-
