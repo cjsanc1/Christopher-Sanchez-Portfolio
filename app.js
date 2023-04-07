@@ -27,3 +27,5 @@ document.addEventListener("keydown", function (evt) {
     }
 });
 
+// the click event listener is happening through the html "onclick"
+
