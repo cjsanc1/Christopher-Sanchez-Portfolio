@@ -32,7 +32,7 @@ h6 {
 }
 
 h3{
-    color: #323940;
+    color: #323940 !important;
 }
 
 .computer-picture {
@@ -59,4 +59,12 @@ ul.navbar-nav.p-2.bg-dark,
 a.navbar-brand {
     background-color: #323940 !important;
     color: #D5D5D0;
+}
+p{
+    margin-top: 1rem;
+}
+
+.portfolio-picture{
+    border: #323940 solid .15rem;
+    border-radius: 10px;
 }

@@ -1,4 +1,5 @@
 # Christopher-Sanchez-Portfolio
+
 Portfolio Website
 Here's the link to my portfolio website https://hilarious-tanuki-ba9f5a.netlify.app/
 I utilized bootstrap framework for my responsive design. I initially wanted to have my navbar disappear I decided, but I wanted to keep my nav hamburger bar cuz I felt it represented a modern design since everyone is used to a mobile design. I didnt want to get rid of that aspect.
